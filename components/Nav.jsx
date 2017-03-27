@@ -15,12 +15,6 @@ class Nav extends React.Component {
     };
   }
 
-  propTypes () {
-    return {
-      children: React.PropTypes.any,
-    }
-  }
-
   toggleNav(e) {
     this.setState({ nav_toggle_active: !this.state.nav_toggle_active });
   }
@@ -57,6 +51,10 @@ class Nav extends React.Component {
       </Headroom>
     )
   }
+}
+
+Nav.propTypes = {
+  children: React.PropTypes.any,
 }
 
 export default Nav;
