@@ -8,8 +8,7 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <section className='section'>
-    <div className='container'>
+    <div className=''>
       <h1 className='title'>Skills:</h1>
       <ul>
         <li>JavaScript, React, jQuery</li>
@@ -36,7 +35,6 @@ module.exports = React.createClass({
         </li>
       </ul>
     </div>
-    </section>
     )
   },
 })

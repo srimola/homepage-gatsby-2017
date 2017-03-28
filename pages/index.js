@@ -7,7 +7,6 @@ export default class Index extends React.Component {
     return (
       <div>
         <Bio />
-        <Resume /> 
       </div>
       )
     }

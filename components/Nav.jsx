@@ -12,7 +12,7 @@ module.exports = React.createClass({
   render () {
     return (
       <Headroom> 
-        <div className='hero is-dark'>
+        <div className='hero is-dark is-bold'>
           <nav className="nav has-shadow">
             <div className="nav-left">
               <Link to='/' className='nav-item' activeClassName='is-active' onlyActiveOnIndex={true}>
@@ -31,6 +31,14 @@ module.exports = React.createClass({
               <Link to={prefixLink('/contact/')} className='nav-item' activeClassName='is-active'>
               Contact
               </Link>
+              <span className='nav-item'>
+                <a href='https://github.com/srimola' className='button is-dark is-inverted'>
+                <span className="icon">
+                  <i className="fa fa-github"></i>
+                </span>
+                <span>Github</span>
+                </a>
+              </span>
             </div>
           </nav>
         </div>
