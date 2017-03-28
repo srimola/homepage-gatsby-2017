@@ -8,13 +8,13 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <section className='hero is-warning is-bold is-medium'>
+      <section className='hero is-warning is-bold is-fullheight'>
             <div className="hero-body">
                 <div className="container">
                         <i className="fa fa-phone fa-5x" aria-hidden="true"></i><br/><br/>
                         <h1 className='title'>Need to get in touch?</h1>
                         <p className='subtitle'>
-                                Contact me through the form below and I'll get back to you as soon as humanly possible.
+                                Contact me through the form below!
                         </p>
                 </div>
             </div>

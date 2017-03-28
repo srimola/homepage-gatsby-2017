@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Stefan Rimola Homepage 2017",
+  "description": "Stefan Rimola Homepage 2017",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Stefan Rimola <stefanrimola@gmail.com>",
   "dependencies": {
     "front-matter": "^2.1.2",
     "gatsby": "^0.12.36",
