@@ -24,7 +24,7 @@ module.exports = React.createClass({
                 <li>
                   <strong className='subtitle'>Engadget<span className='is-pulled-right'>July 2015 - Present</span></strong>
                   <p>
-                    At Engadget I supported Engadget's front-end stack, product database, and user database. I worked closely with several other teams to implement our commenting system, video platform, advertising updates, SSL migration, and more. I wrote and was responsible for maintaing an internal homepage content curation tool as well as a middleware API that parsed HTML content from Aol's CMS into structured JSON data for our iOS and Android apps to consume.
+                    At Engadget I support Engadget's front-end stack, product database, and user database. I work closely with several other teams to maintain our commenting system, video platform, advertising implementation, SSL migration, and more. I wrote and am responsible for maintaing an internal homepage content curation tool as well as a middleware API that parses HTML content from Aol's CMS into structured JSON data for our iOS and Android apps to consume.
                   </p>
                   <ul>
                     <li>Tailor - ES6 JavaScript, Handlebars, jQuery, Webpack</li>

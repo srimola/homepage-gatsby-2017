@@ -15,7 +15,7 @@ module.exports = React.createClass({
                         <i className="fa fa-address-card-o fa-5x" aria-hidden="true"></i><br/><br/>
                         <h1 className='title'>About me</h1>
                         <p className='subtitle'>
-                            Hey there! I'm <Link to='/'><strong>Stefan</strong></Link>. I currently work at <a href="https://www.engadget.com/" target="_blank"><strong>Engadget</strong></a> as a software engineer managing various aspects of our website and utilizing JavaScript, HTML, and SASSy CSS on a daily basis. I get a kick out of tinkering with new UI libraries and frameworks, as well as building audio plugins for Ableton using Max for Live. In my spare time I love to travel, snowboard and go hiking!✌️
+                            Hey there! I'm <Link to='/'><strong>Stefan</strong></Link>. I currently work at <a href="https://www.engadget.com/" target="_blank"><strong>Engadget</strong></a> as a software engineer managing various aspects of our website and utilizing JavaScript, HTML, and SASSy CSS on a daily basis. I get a kick out of tinkering with UI libraries, learning new langagues and frameworks, as well as building audio plugins for Ableton using Max for Live. In my spare time I love to travel, snowboard and go hiking!✌️
                         </p>
                 </div>
             </div>
