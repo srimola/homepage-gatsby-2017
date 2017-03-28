@@ -1,9 +1,21 @@
-@import '../bulma/sass/utilities/_all.sass'
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@import "../bulma/bulma.sass"
 
 $family-main: "Raleway", sans-serif
 
 $family-primary: $family-main
 
-@import "../bulma/bulma.sass"
+.button.is-dark.is-inverted:hover
+  color: whitesmoke
+  background-color: #363636
+
+#twitter
+  color: #55acee;
+  border-color: #55acee;
+  &:hover
+    background: #55acee;
+    border-color: #55acee;
+    color: white;
+
+.title:not(.is-spaced) + .subtitle
+  margin-top: -1rem
