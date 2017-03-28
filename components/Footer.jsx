@@ -12,7 +12,7 @@ module.exports = React.createClass({
       <div className="container">
       <div className="content">
         <p>
-          <small>Built by Stefan Rimola with <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a> and <a href="http://bulma.io/">Bulma</a>.</small>
+          <small>Built by Stefan Rimola with <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>.</small>
           <br/>
           <small>&copy; Copyright Stefan Rimola 2017</small>
         </p>

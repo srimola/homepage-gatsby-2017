@@ -26,7 +26,7 @@ class Nav extends React.Component {
   render () {
     return (
       <Headroom>
-        <div className='hero is-dark is-bold'>
+        <div className='hero is-dark is-bold' >
           <nav className="nav has-shadow">
             <div className="nav-left">
               <Link to='/' className='nav-item' activeClassName='is-active' onlyActiveOnIndex={true} onClick={this.resetNav}>

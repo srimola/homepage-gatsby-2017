@@ -21,7 +21,8 @@ module.exports = React.createClass({
         {"name": "keywords", "content": "stefan rimola, rimola, stefanrimola"},
         ]}
         link={[
-        {"rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"}
+        {"rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"},
+        {"rel": "icon", "type": "image/x-icon", "href": "http://lok1.vip/assets/favicon.ico"},
         ]}
         />
         <Nav />
