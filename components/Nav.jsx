@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 
-class Nav extends React.Component {
+export default class Nav extends React.Component {
   constructor() {
     super();
 
@@ -68,5 +68,3 @@ class Nav extends React.Component {
 Nav.propTypes = {
   children: React.PropTypes.any,
 }
-
-export default Nav;
