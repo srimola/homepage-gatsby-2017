@@ -16,7 +16,8 @@ export default class Nav extends React.Component {
   }
 
   toggleNav(e) {
-    this.setState({ nav_toggle_active: !this.state.nav_toggle_active });
+    let nav_toggle_state = this.state.nav_toggle_active;
+    this.setState({ nav_toggle_active: !nav_toggle_state });
   }
 
   resetNav(e) {
@@ -39,12 +40,6 @@ export default class Nav extends React.Component {
                 <span/>
             </span>
             <div className={'nav-right nav-menu' + (this.state.nav_toggle_active ? ' is-active' : '')}>
-              <Link to={prefixLink('/about/')} className='nav-item' activeClassName='is-active' onClick={this.toggleNav}>
-              About
-              </Link>
-              <Link to={prefixLink('/contact/')} className='nav-item' activeClassName='is-active' onClick={this.toggleNav}>
-              Contact
-              </Link>
               <span className='nav-item'>
                 <a href='https://github.com/srimola' className='button is-dark is-inverted' target="_blank">
                 <span className="icon">

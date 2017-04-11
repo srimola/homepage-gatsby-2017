@@ -8,14 +8,15 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <section className='hero is-warning is-bold is-fullheight'>
-            <div className="hero-body">
+      <section className='hero is-warning is-bold is-medium' id='contact'>
+            <div className="hero-body container">
                 <div className="container">
                         <i className="fa fa-phone fa-5x" aria-hidden="true"></i><br/><br/>
                         <h1 className='title'>Need to get in touch?</h1>
-                        <p className='subtitle'>
-                                Contact me through the form below!
-                        </p>
+                        <p className='subtitle'>Hit me up!</p>
+                        <br/>
+                        <p className='title'>(408) 439-6539</p>
+                        <p className='title'>stefanrimola@gmail.com</p>
                 </div>
             </div>
       </section>

@@ -15,9 +15,10 @@ module.exports = React.createClass({
                 <ul>
                   <li>HTML, HTML5</li>
                   <li>CSS, CSS3, SASS</li>
-                  <li>JavaScript, ES6, React, jQuery, Handlebars, Gulp, Webpack, npm</li>
+                  <li>JavaScript, ES6, React, jQuery, Handlebars, Gulp, Webpack</li>
                   <li>Twig, PHP, Laravel, MySQL</li>
                   <li>Git, Github, Stash, Bitbucket</li>
+                  <li>Photoshop, Illustrator, Sketch</li>
                 </ul>
                 <h1 className='title'>Experience:</h1>
                 <ul>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav.jsx'
 import Footer from '../components/Footer.jsx'
+import GoogleAnalytics from '../components/GoogleAnalytics'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 import '../sass/main'
@@ -28,6 +29,7 @@ module.exports = React.createClass({
         <Nav />
         {this.props.children}
         <Footer />
+        <GoogleAnalytics />
       </div>
     )
   },

@@ -9,8 +9,9 @@ module.exports = React.createClass({
   render () {
     return (
       <section className='section'>
-            <div className="container columns">
-            <div className="column">
+        <div className="container">
+            <div class="columns">
+            <div className="column is-half">
                     <div className="field">
                         <label className='label'>Name</label>
                         <p className='control'>
@@ -41,8 +42,9 @@ module.exports = React.createClass({
               </p>
             </div>
             </div>
-            <div className="column is-hidden-mobile"></div>
+            <div className="column is-half is-hidden-mobile"></div>
             </div>
+        </div>
       </section>
     )
   },

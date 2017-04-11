@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router'
 
 module.exports = React.createClass({
   propTypes () {
@@ -9,7 +8,7 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <section className='hero is-info is-bold'>
+      <section className='hero is-info is-bold is-medium'>
             <div className="hero-body">
                 <div className="container">
                         <i className="fa fa-wrench fa-5x" aria-hidden="true"></i><br/><br/>
