@@ -23,13 +23,12 @@ module.exports = React.createClass({
         ]}
         link={[
         {"rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"},
-        {"rel": "icon", "type": "image/x-icon", "href": "http://lok1.vip/assets/favicon.ico"},
+        {"rel": "icon", "type": "image/x-icon", "href": "https://stefanrimola.com/favicon.ico"},
         ]}
         />
         <Nav />
         {this.props.children}
         <Footer />
-        <GoogleAnalytics />
       </div>
     )
   },

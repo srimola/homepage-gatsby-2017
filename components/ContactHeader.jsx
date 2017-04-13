@@ -8,7 +8,7 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <section className='hero is-warning is-bold is-medium' id='contact'>
+      <section className='hero is-info is-bold is-medium' id='contact'>
             <div className="hero-body container">
                 <div className="container">
                         <i className="fa fa-phone fa-5x" aria-hidden="true"></i><br/><br/>

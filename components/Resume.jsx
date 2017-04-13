@@ -52,9 +52,6 @@ module.exports = React.createClass({
                     </li>
                     <li><a href='http://beyondcasualb.com' target='_blank'>BeyondCasual</a> - WordPress Site</li>
                 </ul>
-            <h1 className="title">Education:</h1>
-            <p><strong>University of California, San Diego</strong> - Graduated 2015</p>
-            <p><strong>Bellarmine College Preparatory, San Jose</strong> - Graduated 2010</p>
             </div>
             </div>
         </section>
